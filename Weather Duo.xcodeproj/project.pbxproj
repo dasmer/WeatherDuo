@@ -12,6 +12,7 @@
 		2F8806E027C45A98006351A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806DF27C45A98006351A0 /* Assets.xcassets */; };
 		2F8806E327C45A98006351A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806E227C45A98006351A0 /* Preview Assets.xcassets */; };
 		2F8806EA27C45AE1006351A0 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
+		2F8806EC27C463E6006351A0 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2F8806DF27C45A98006351A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8806E227C45A98006351A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherClient.swift; sourceTree = "<group>"; };
+		2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCoordinate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2F8806DB27C45A98006351A0 /* Weather_DuoApp.swift */,
 				2F8806DD27C45A98006351A0 /* ContentView.swift */,
 				2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */,
+				2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */,
 				2F8806DF27C45A98006351A0 /* Assets.xcassets */,
 				2F8806E127C45A98006351A0 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8806EC27C463E6006351A0 /* LocationCoordinate.swift in Sources */,
 				2F8806EA27C45AE1006351A0 /* OpenWeatherClient.swift in Sources */,
 				2F8806DE27C45A98006351A0 /* ContentView.swift in Sources */,
 				2F8806DC27C45A98006351A0 /* Weather_DuoApp.swift in Sources */,
