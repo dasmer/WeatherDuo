@@ -21,14 +21,19 @@ struct OpenWeatherClient {
 
 struct CurrentWeatherResponse: Codable {
 
+    let weather: Weather
+    let main: Main
+    let name: String
+
+
     struct Weather: Codable, Identifiable {
-        var id: String
-        var main: String
-        var description: String
-        var icon: String
+        let id: String
+        let main: String
+        let description: String
+        let icon: String
     }
 
     struct Main: Codable {
-        var temp: Double
+        let temp: Double
     }
 }
