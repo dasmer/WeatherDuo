@@ -1,13 +1,7 @@
-//
-//  ContentView.swift
-//  Weather Duo
-//
-//  Created by Dasmer Singh on 2/21/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
         Text("Hello, world!")
             .padding()

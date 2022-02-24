@@ -1,10 +1,3 @@
-//
-//  Weather_DuoApp.swift
-//  Weather Duo
-//
-//  Created by Dasmer Singh on 2/21/22.
-//
-
 import SwiftUI
 
 @main

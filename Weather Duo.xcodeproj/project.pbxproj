@@ -13,8 +13,43 @@
 		2F8806E327C45A98006351A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806E227C45A98006351A0 /* Preview Assets.xcassets */; };
 		2F8806EA27C45AE1006351A0 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
 		2F8806EC27C463E6006351A0 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
-		2F8806EE27C5C0AE006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806ED27C5C0AE006351A0 /* WeatherViewModel.swift */; };
+		2F8806EE27C5C0AE006351A0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806ED27C5C0AE006351A0 /* WeatherModel.swift */; };
+		2F8806F627C5C362006351A0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8806F527C5C362006351A0 /* WidgetKit.framework */; };
+		2F8806F827C5C362006351A0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8806F727C5C362006351A0 /* SwiftUI.framework */; };
+		2F8806FB27C5C362006351A0 /* Weather_Duo_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806FA27C5C362006351A0 /* Weather_Duo_Widget.swift */; };
+		2F88070127C5C363006351A0 /* Weather Duo WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F8806F327C5C362006351A0 /* Weather Duo WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F88070627C68113006351A0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806ED27C5C0AE006351A0 /* WeatherModel.swift */; };
+		2F88070727C69AE1006351A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806DF27C45A98006351A0 /* Assets.xcassets */; };
+		2F88070927C73A95006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
+		2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
+		2F88070B27C73D88006351A0 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
+		2F88070C27C73D91006351A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806DD27C45A98006351A0 /* ContentView.swift */; };
+		2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8806FF27C5C363006351A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8806D027C45A98006351A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8806F227C5C362006351A0;
+			remoteInfo = "Weather Duo WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F88070527C5C363006351A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F88070127C5C363006351A0 /* Weather Duo WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F8806D827C45A98006351A0 /* Weather Duo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Duo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,7 +59,13 @@
 		2F8806E227C45A98006351A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherClient.swift; sourceTree = "<group>"; };
 		2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCoordinate.swift; sourceTree = "<group>"; };
-		2F8806ED27C5C0AE006351A0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		2F8806ED27C5C0AE006351A0 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		2F8806F327C5C362006351A0 /* Weather Duo WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Weather Duo WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8806F527C5C362006351A0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2F8806F727C5C362006351A0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2F8806FA27C5C362006351A0 /* Weather_Duo_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Duo_Widget.swift; sourceTree = "<group>"; };
+		2F8806FE27C5C363006351A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F88070827C73A95006351A0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +76,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F8806F027C5C362006351A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8806F827C5C362006351A0 /* SwiftUI.framework in Frameworks */,
+				2F8806F627C5C362006351A0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				2F8806DA27C45A98006351A0 /* Weather Duo */,
+				2F8806F927C5C362006351A0 /* Weather Duo Widget */,
+				2F8806F427C5C362006351A0 /* Frameworks */,
 				2F8806D927C45A98006351A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2F8806D827C45A98006351A0 /* Weather Duo.app */,
+				2F8806F327C5C362006351A0 /* Weather Duo WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +112,9 @@
 			children = (
 				2F8806DB27C45A98006351A0 /* Weather_DuoApp.swift */,
 				2F8806DD27C45A98006351A0 /* ContentView.swift */,
+				2F8806ED27C5C0AE006351A0 /* WeatherModel.swift */,
+				2F88070827C73A95006351A0 /* WeatherViewModel.swift */,
 				2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */,
-				2F8806ED27C5C0AE006351A0 /* WeatherViewModel.swift */,
 				2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */,
 				2F8806DF27C45A98006351A0 /* Assets.xcassets */,
 				2F8806E127C45A98006351A0 /* Preview Content */,
@@ -76,6 +130,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2F8806F427C5C362006351A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8806F527C5C362006351A0 /* WidgetKit.framework */,
+				2F8806F727C5C362006351A0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8806F927C5C362006351A0 /* Weather Duo Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2F8806FA27C5C362006351A0 /* Weather_Duo_Widget.swift */,
+				2F8806FE27C5C363006351A0 /* Info.plist */,
+			);
+			path = "Weather Duo Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,15 +158,34 @@
 				2F8806D427C45A98006351A0 /* Sources */,
 				2F8806D527C45A98006351A0 /* Frameworks */,
 				2F8806D627C45A98006351A0 /* Resources */,
+				2F88070527C5C363006351A0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2F88070027C5C363006351A0 /* PBXTargetDependency */,
 			);
 			name = "Weather Duo";
 			productName = "Weather Duo";
 			productReference = 2F8806D827C45A98006351A0 /* Weather Duo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2F8806F227C5C362006351A0 /* Weather Duo WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F88070227C5C363006351A0 /* Build configuration list for PBXNativeTarget "Weather Duo WidgetExtension" */;
+			buildPhases = (
+				2F8806EF27C5C362006351A0 /* Sources */,
+				2F8806F027C5C362006351A0 /* Frameworks */,
+				2F8806F127C5C362006351A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weather Duo WidgetExtension";
+			productName = "Weather Duo WidgetExtension";
+			productReference = 2F8806F327C5C362006351A0 /* Weather Duo WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +198,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					2F8806D727C45A98006351A0 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2F8806F227C5C362006351A0 = {
 						CreatedOnToolsVersion = 13.2;
 					};
 				};
@@ -125,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				2F8806D727C45A98006351A0 /* Weather Duo */,
+				2F8806F227C5C362006351A0 /* Weather Duo WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F8806F127C5C362006351A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F88070727C69AE1006351A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8806EE27C5C0AE006351A0 /* WeatherViewModel.swift in Sources */,
+				2F8806EE27C5C0AE006351A0 /* WeatherModel.swift in Sources */,
+				2F88070927C73A95006351A0 /* WeatherViewModel.swift in Sources */,
 				2F8806EC27C463E6006351A0 /* LocationCoordinate.swift in Sources */,
 				2F8806EA27C45AE1006351A0 /* OpenWeatherClient.swift in Sources */,
 				2F8806DE27C45A98006351A0 /* ContentView.swift in Sources */,
@@ -154,7 +258,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F8806EF27C5C362006351A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8806FB27C5C362006351A0 /* Weather_Duo_Widget.swift in Sources */,
+				2F88070C27C73D91006351A0 /* ContentView.swift in Sources */,
+				2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */,
+				2F88070627C68113006351A0 /* WeatherModel.swift in Sources */,
+				2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */,
+				2F88070B27C73D88006351A0 /* OpenWeatherClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F88070027C5C363006351A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8806F227C5C362006351A0 /* Weather Duo WidgetExtension */;
+			targetProxy = 2F8806FF27C5C363006351A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2F8806E427C45A98006351A0 /* Debug */ = {
@@ -276,6 +401,7 @@
 		2F8806E727C45A98006351A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +431,7 @@
 		2F8806E827C45A98006351A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -331,6 +458,60 @@
 			};
 			name = Release;
 		};
+		2F88070327C5C363006351A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63259B266M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Duo Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.Weather-Duo-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F88070427C5C363006351A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63259B266M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Duo Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.Weather-Duo-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,6 +529,15 @@
 			buildConfigurations = (
 				2F8806E727C45A98006351A0 /* Debug */,
 				2F8806E827C45A98006351A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F88070227C5C363006351A0 /* Build configuration list for PBXNativeTarget "Weather Duo WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F88070327C5C363006351A0 /* Debug */,
+				2F88070427C5C363006351A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

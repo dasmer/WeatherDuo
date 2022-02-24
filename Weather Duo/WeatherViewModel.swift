@@ -1,10 +1,21 @@
 import Foundation
 
-struct WeatherViewModel: Codable {
 
-    let kelvinTemperature: Double
-    let city: String
-    let title: String
-    let description: String
-    let iconName: String
+class WeatherViewModel: ObservableObject {
+    @Published private(set) var model: WeatherModel?
+
+    private let client = OpenWeatherClient()
+
+    @MainActor
+    func loadWeatherAtLocation(coordinate: LocationCoordinate) async -> WeatherModel? {
+        guard let response = await client.loadCurrentWeather(coordinate: coordinate),
+              let weather = response.weather.first else { return nil }
+
+        return WeatherModel(kelvinTemperature: response.main.temp,
+                            city: response.name,
+                            title: weather.main,
+                            description: weather.description,
+                            iconName: weather.icon,
+                            lastUpdateDate: Date(timeIntervalSince1970: TimeInterval(response.dt)))
+    }
 }
