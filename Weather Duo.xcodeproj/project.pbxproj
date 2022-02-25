@@ -39,6 +39,9 @@
 		2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
 		2F88070B27C73D88006351A0 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
 		2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
+		2FFB372C27C87CBF0053C558 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB372B27C87CBF0053C558 /* Temperature.swift */; };
+		2FFB372D27C87CBF0053C558 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB372B27C87CBF0053C558 /* Temperature.swift */; };
+		2FFB372E27C87CBF0053C558 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB372B27C87CBF0053C558 /* Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +131,7 @@
 		2F8806FA27C5C362006351A0 /* Weather_Duo_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Duo_Widget.swift; sourceTree = "<group>"; };
 		2F8806FE27C5C363006351A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F88070827C73A95006351A0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		2FFB372B27C87CBF0053C558 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,7 @@
 				2F88070827C73A95006351A0 /* WeatherViewModel.swift */,
 				2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */,
 				2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */,
+				2FFB372B27C87CBF0053C558 /* Temperature.swift */,
 				2F8806DF27C45A98006351A0 /* Assets.xcassets */,
 				2F8806E127C45A98006351A0 /* Preview Content */,
 			);
@@ -424,6 +429,7 @@
 				2F03237627C7C1730011AAC7 /* WeatherViewModel.swift in Sources */,
 				2F03237427C7C1730011AAC7 /* WeatherModel.swift in Sources */,
 				2F03237727C7C1730011AAC7 /* LocationCoordinate.swift in Sources */,
+				2FFB372E27C87CBF0053C558 /* Temperature.swift in Sources */,
 				2F03235F27C7C0FA0011AAC7 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +443,7 @@
 				2F8806EC27C463E6006351A0 /* LocationCoordinate.swift in Sources */,
 				2F8806EA27C45AE1006351A0 /* OpenWeatherClient.swift in Sources */,
 				2F8806DE27C45A98006351A0 /* ContentView.swift in Sources */,
+				2FFB372C27C87CBF0053C558 /* Temperature.swift in Sources */,
 				2F8806DC27C45A98006351A0 /* Weather_DuoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +454,7 @@
 			files = (
 				2F8806FB27C5C362006351A0 /* Weather_Duo_Widget.swift in Sources */,
 				2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */,
+				2FFB372D27C87CBF0053C558 /* Temperature.swift in Sources */,
 				2F88070627C68113006351A0 /* WeatherModel.swift in Sources */,
 				2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */,
 				2F88070B27C73D88006351A0 /* OpenWeatherClient.swift in Sources */,

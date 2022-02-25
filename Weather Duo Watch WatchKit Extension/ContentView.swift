@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @ObservedObject private var weatherViewModel = WeatherViewModel()
+    @ObservedObject var weatherViewModel: WeatherViewModel
 
     var body: some View {
         VStack {
@@ -20,21 +20,21 @@ struct ContentView: View {
                         Spacer().overlay (
                             VStack {
                                 Text("°C")
-                                Text(model.celsiusTemperatureString).bold()
+                                Text(model.temperature.celsiusString).bold()
                             }
                         )
                         Image(model.iconName)
                         Spacer().overlay (
                             VStack {
                                 Text("°F")
-                                Text(model.fahrenheitTemperatureString).bold()
+                                Text(model.temperature.fahrenheitString).bold()
                             }
                         )
                     }
                     Text(model.title)
                 }
             } else {
-                Text("Loading")
+                ProgressView()
             }
         }.task {
             let coordinate = LocationCoordinate(latitude: 40.7812, longitude: -73.9665)
@@ -45,6 +45,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(weatherViewModel: WeatherViewModel(stubbed: true))
     }
 }

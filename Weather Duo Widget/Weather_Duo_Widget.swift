@@ -47,14 +47,14 @@ struct Weather_Duo_WidgetEntryView : View {
                 Spacer().overlay (
                 VStack {
                     Text("°C")
-                    Text(entry.model.celsiusTemperatureString).bold()
+                    Text(entry.model.temperature.celsiusString).bold()
                 }
                 )
                 Image(entry.model.iconName)
                 Spacer().overlay (
                     VStack {
                         Text("°F")
-                        Text(entry.model.fahrenheitTemperatureString).bold()
+                        Text(entry.model.temperature.fahrenheitString).bold()
                     }
                 )
             }

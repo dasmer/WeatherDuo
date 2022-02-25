@@ -2,6 +2,8 @@ import SwiftUI
 
 struct ContentView: View {
 
+    private var weatherViewModel = WeatherViewModel()
+
     var body: some View {
         Text("Hello, world!")
             .padding()
