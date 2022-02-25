@@ -24,6 +24,7 @@ class WeatherViewModel: ObservableObject {
 
             model = WeatherModel(temperature: Temperature(kelvin: response.main.temp),
                                  feelsLike: Temperature(kelvin: response.main.feelsLike),
+                                 humidity: response.main.humidity,
                                  city: response.name,
                                  title: weather.main,
                                  description: weather.description,

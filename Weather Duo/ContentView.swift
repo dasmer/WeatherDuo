@@ -10,6 +10,7 @@ struct ContentView: View {
                 Spacer()
                 Text("Current temperature: \(model.temperature.fahrenheitString)°F")
                 Text("Feels like: \(model.feelsLike.fahrenheitString)°F")
+                Text("Humidity: \(model.humidity)%")
                 Text("City: \(model.city)")
                 Text("Title: \(model.title)")
                 Text("Description: \(model.description)")
