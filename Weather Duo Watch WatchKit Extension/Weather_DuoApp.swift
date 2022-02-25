@@ -1,10 +1,3 @@
-//
-//  Weather_DuoApp.swift
-//  Weather Duo Watch WatchKit Extension
-//
-//  Created by Dasmer Singh on 2/24/22.
-//
-
 import SwiftUI
 
 @main
