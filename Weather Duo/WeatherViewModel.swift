@@ -7,15 +7,15 @@ class WeatherViewModel: ObservableObject {
     private let client = OpenWeatherClient()
 
     @MainActor
-    func loadWeatherAtLocation(coordinate: LocationCoordinate) async -> WeatherModel? {
+    func loadWeatherAtLocation(coordinate: LocationCoordinate) async {
         guard let response = await client.loadCurrentWeather(coordinate: coordinate),
-              let weather = response.weather.first else { return nil }
+              let weather = response.weather.first else { return }
 
-        return WeatherModel(kelvinTemperature: response.main.temp,
-                            city: response.name,
-                            title: weather.main,
-                            description: weather.description,
-                            iconName: weather.icon,
-                            lastUpdateDate: Date(timeIntervalSince1970: TimeInterval(response.dt)))
+        model = WeatherModel(kelvinTemperature: response.main.temp,
+                             city: response.name,
+                             title: weather.main,
+                             description: weather.description,
+                             iconName: weather.icon,
+                             lastUpdateDate: Date(timeIntervalSince1970: TimeInterval(response.dt)))
     }
 }

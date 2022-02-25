@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F03234E27C7C0FA0011AAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F03234D27C7C0FA0011AAC7 /* Assets.xcassets */; };
+		2F03235427C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F03235327C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F03235927C7C0FA0011AAC7 /* Weather_DuoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03235827C7C0FA0011AAC7 /* Weather_DuoApp.swift */; };
+		2F03235B27C7C0FA0011AAC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03235A27C7C0FA0011AAC7 /* ContentView.swift */; };
+		2F03235D27C7C0FA0011AAC7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03235C27C7C0FA0011AAC7 /* NotificationController.swift */; };
+		2F03235F27C7C0FA0011AAC7 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03235E27C7C0FA0011AAC7 /* NotificationView.swift */; };
+		2F03236127C7C0FA0011AAC7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03236027C7C0FA0011AAC7 /* ComplicationController.swift */; };
+		2F03236327C7C0FB0011AAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F03236227C7C0FB0011AAC7 /* Assets.xcassets */; };
+		2F03236627C7C0FB0011AAC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F03236527C7C0FB0011AAC7 /* Preview Assets.xcassets */; };
+		2F03236B27C7C0FB0011AAC7 /* Weather Duo Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2F03234B27C7C0F90011AAC7 /* Weather Duo Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F03237427C7C1730011AAC7 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806ED27C5C0AE006351A0 /* WeatherModel.swift */; };
+		2F03237527C7C1730011AAC7 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
+		2F03237627C7C1730011AAC7 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
+		2F03237727C7C1730011AAC7 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
+		2F833B0027C7C3AA0029054F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806DF27C45A98006351A0 /* Assets.xcassets */; };
 		2F8806DC27C45A98006351A0 /* Weather_DuoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806DB27C45A98006351A0 /* Weather_DuoApp.swift */; };
 		2F8806DE27C45A98006351A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806DD27C45A98006351A0 /* ContentView.swift */; };
 		2F8806E027C45A98006351A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8806DF27C45A98006351A0 /* Assets.xcassets */; };
@@ -23,11 +38,24 @@
 		2F88070927C73A95006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
 		2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88070827C73A95006351A0 /* WeatherViewModel.swift */; };
 		2F88070B27C73D88006351A0 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806E927C45AE1006351A0 /* OpenWeatherClient.swift */; };
-		2F88070C27C73D91006351A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806DD27C45A98006351A0 /* ContentView.swift */; };
 		2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8806EB27C463E6006351A0 /* LocationCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2F03235527C7C0FA0011AAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8806D027C45A98006351A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F03235227C7C0FA0011AAC7;
+			remoteInfo = "Weather Duo Watch WatchKit Extension";
+		};
+		2F03236927C7C0FB0011AAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8806D027C45A98006351A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F03234A27C7C0F90011AAC7;
+			remoteInfo = "Weather Duo Watch";
+		};
 		2F8806FF27C5C363006351A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2F8806D027C45A98006351A0 /* Project object */;
@@ -38,6 +66,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2F03236C27C7C0FB0011AAC7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2F03236B27C7C0FB0011AAC7 /* Weather Duo Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03236F27C7C0FB0011AAC7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F03235427C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F88070527C5C363006351A0 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,6 +102,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F03234B27C7C0F90011AAC7 /* Weather Duo Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Duo Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F03234D27C7C0FA0011AAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F03235327C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Weather Duo Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F03235827C7C0FA0011AAC7 /* Weather_DuoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_DuoApp.swift; sourceTree = "<group>"; };
+		2F03235A27C7C0FA0011AAC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F03235C27C7C0FA0011AAC7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2F03235E27C7C0FA0011AAC7 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2F03236027C7C0FA0011AAC7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2F03236227C7C0FB0011AAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F03236527C7C0FB0011AAC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F03236727C7C0FB0011AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F03236827C7C0FB0011AAC7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		2F8806D827C45A98006351A0 /* Weather Duo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Duo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8806DB27C45A98006351A0 /* Weather_DuoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_DuoApp.swift; sourceTree = "<group>"; };
 		2F8806DD27C45A98006351A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +131,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F03235027C7C0FA0011AAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F8806D527C45A98006351A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,11 +157,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F03234C27C7C0F90011AAC7 /* Weather Duo Watch */ = {
+			isa = PBXGroup;
+			children = (
+				2F03234D27C7C0FA0011AAC7 /* Assets.xcassets */,
+			);
+			path = "Weather Duo Watch";
+			sourceTree = "<group>";
+		};
+		2F03235727C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F03235827C7C0FA0011AAC7 /* Weather_DuoApp.swift */,
+				2F03235A27C7C0FA0011AAC7 /* ContentView.swift */,
+				2F03235C27C7C0FA0011AAC7 /* NotificationController.swift */,
+				2F03235E27C7C0FA0011AAC7 /* NotificationView.swift */,
+				2F03236027C7C0FA0011AAC7 /* ComplicationController.swift */,
+				2F03236227C7C0FB0011AAC7 /* Assets.xcassets */,
+				2F03236727C7C0FB0011AAC7 /* Info.plist */,
+				2F03236827C7C0FB0011AAC7 /* PushNotificationPayload.apns */,
+				2F03236427C7C0FB0011AAC7 /* Preview Content */,
+			);
+			path = "Weather Duo Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2F03236427C7C0FB0011AAC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F03236527C7C0FB0011AAC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		2F8806CF27C45A98006351A0 = {
 			isa = PBXGroup;
 			children = (
 				2F8806DA27C45A98006351A0 /* Weather Duo */,
 				2F8806F927C5C362006351A0 /* Weather Duo Widget */,
+				2F03234C27C7C0F90011AAC7 /* Weather Duo Watch */,
+				2F03235727C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension */,
 				2F8806F427C5C362006351A0 /* Frameworks */,
 				2F8806D927C45A98006351A0 /* Products */,
 			);
@@ -103,6 +206,8 @@
 			children = (
 				2F8806D827C45A98006351A0 /* Weather Duo.app */,
 				2F8806F327C5C362006351A0 /* Weather Duo WidgetExtension.appex */,
+				2F03234B27C7C0F90011AAC7 /* Weather Duo Watch.app */,
+				2F03235327C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +256,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F03234A27C7C0F90011AAC7 /* Weather Duo Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F03237327C7C0FB0011AAC7 /* Build configuration list for PBXNativeTarget "Weather Duo Watch" */;
+			buildPhases = (
+				2F03234927C7C0F90011AAC7 /* Resources */,
+				2F03236F27C7C0FB0011AAC7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F03235627C7C0FA0011AAC7 /* PBXTargetDependency */,
+			);
+			name = "Weather Duo Watch";
+			productName = "Weather Duo Watch";
+			productReference = 2F03234B27C7C0F90011AAC7 /* Weather Duo Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2F03235227C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F03237227C7C0FB0011AAC7 /* Build configuration list for PBXNativeTarget "Weather Duo Watch WatchKit Extension" */;
+			buildPhases = (
+				2F03234F27C7C0FA0011AAC7 /* Sources */,
+				2F03235027C7C0FA0011AAC7 /* Frameworks */,
+				2F03235127C7C0FA0011AAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weather Duo Watch WatchKit Extension";
+			productName = "Weather Duo Watch WatchKit Extension";
+			productReference = 2F03235327C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		2F8806D727C45A98006351A0 /* Weather Duo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F8806E627C45A98006351A0 /* Build configuration list for PBXNativeTarget "Weather Duo" */;
@@ -159,11 +298,13 @@
 				2F8806D527C45A98006351A0 /* Frameworks */,
 				2F8806D627C45A98006351A0 /* Resources */,
 				2F88070527C5C363006351A0 /* Embed App Extensions */,
+				2F03236C27C7C0FB0011AAC7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				2F88070027C5C363006351A0 /* PBXTargetDependency */,
+				2F03236A27C7C0FB0011AAC7 /* PBXTargetDependency */,
 			);
 			name = "Weather Duo";
 			productName = "Weather Duo";
@@ -197,6 +338,12 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					2F03234A27C7C0F90011AAC7 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2F03235227C7C0FA0011AAC7 = {
+						CreatedOnToolsVersion = 13.2;
+					};
 					2F8806D727C45A98006351A0 = {
 						CreatedOnToolsVersion = 13.2;
 					};
@@ -220,11 +367,31 @@
 			targets = (
 				2F8806D727C45A98006351A0 /* Weather Duo */,
 				2F8806F227C5C362006351A0 /* Weather Duo WidgetExtension */,
+				2F03234A27C7C0F90011AAC7 /* Weather Duo Watch */,
+				2F03235227C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F03234927C7C0F90011AAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F03234E27C7C0FA0011AAC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03235127C7C0FA0011AAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F03236627C7C0FB0011AAC7 /* Preview Assets.xcassets in Resources */,
+				2F833B0027C7C3AA0029054F /* Assets.xcassets in Resources */,
+				2F03236327C7C0FB0011AAC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F8806D627C45A98006351A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +412,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F03234F27C7C0FA0011AAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F03235D27C7C0FA0011AAC7 /* NotificationController.swift in Sources */,
+				2F03235B27C7C0FA0011AAC7 /* ContentView.swift in Sources */,
+				2F03236127C7C0FA0011AAC7 /* ComplicationController.swift in Sources */,
+				2F03237527C7C1730011AAC7 /* OpenWeatherClient.swift in Sources */,
+				2F03235927C7C0FA0011AAC7 /* Weather_DuoApp.swift in Sources */,
+				2F03237627C7C1730011AAC7 /* WeatherViewModel.swift in Sources */,
+				2F03237427C7C1730011AAC7 /* WeatherModel.swift in Sources */,
+				2F03237727C7C1730011AAC7 /* LocationCoordinate.swift in Sources */,
+				2F03235F27C7C0FA0011AAC7 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F8806D427C45A98006351A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,7 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8806FB27C5C362006351A0 /* Weather_Duo_Widget.swift in Sources */,
-				2F88070C27C73D91006351A0 /* ContentView.swift in Sources */,
 				2F88070A27C73A95006351A0 /* WeatherViewModel.swift in Sources */,
 				2F88070627C68113006351A0 /* WeatherModel.swift in Sources */,
 				2F88070D27C73D91006351A0 /* LocationCoordinate.swift in Sources */,
@@ -274,6 +456,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2F03235627C7C0FA0011AAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F03235227C7C0FA0011AAC7 /* Weather Duo Watch WatchKit Extension */;
+			targetProxy = 2F03235527C7C0FA0011AAC7 /* PBXContainerItemProxy */;
+		};
+		2F03236A27C7C0FB0011AAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F03234A27C7C0F90011AAC7 /* Weather Duo Watch */;
+			targetProxy = 2F03236927C7C0FB0011AAC7 /* PBXContainerItemProxy */;
+		};
 		2F88070027C5C363006351A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2F8806F227C5C362006351A0 /* Weather Duo WidgetExtension */;
@@ -282,6 +474,122 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2F03236D27C7C0FB0011AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63259B266M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Weather_Duo_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.dasmer.Weather-Duo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		2F03236E27C7C0FB0011AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63259B266M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Weather_Duo_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.dasmer.Weather-Duo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		2F03237027C7C0FB0011AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather Duo Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63259B266M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Duo Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Weather_Duo_Watch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		2F03237127C7C0FB0011AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather Duo Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63259B266M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Duo Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Duo Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Weather_Duo_Watch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dasmer.Weather-Duo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
 		2F8806E427C45A98006351A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +823,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F03237227C7C0FB0011AAC7 /* Build configuration list for PBXNativeTarget "Weather Duo Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F03237027C7C0FB0011AAC7 /* Debug */,
+				2F03237127C7C0FB0011AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F03237327C7C0FB0011AAC7 /* Build configuration list for PBXNativeTarget "Weather Duo Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F03236D27C7C0FB0011AAC7 /* Debug */,
+				2F03236E27C7C0FB0011AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2F8806D327C45A98006351A0 /* Build configuration list for PBXProject "Weather Duo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

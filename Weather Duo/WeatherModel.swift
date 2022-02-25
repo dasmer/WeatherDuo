@@ -2,14 +2,6 @@ import Foundation
 
 struct WeatherModel: Codable {
 
-    private static var numberFormatter: NumberFormatter = {
-        let f = NumberFormatter()
-        f.usesSignificantDigits = true
-        f.maximumSignificantDigits = 2
-        f.minimumSignificantDigits = 1
-        return f
-    }()
-
     let kelvinTemperature: Double
     let city: String
     let title: String
@@ -38,10 +30,10 @@ struct WeatherModel: Codable {
     }
 
     private func temperatureString(forTemperature t: Double) -> String {
-        if let formattedNumber = Self.numberFormatter.string(from: NSNumber(value:t)) {
-            return "\(formattedNumber)"
+        if t > -10.0 && t < 10.0 {
+            return String(round(t * 10) / 10.0)
         } else {
-            return "N/A"
+            return String(Int(round(t)))
         }
     }
 }

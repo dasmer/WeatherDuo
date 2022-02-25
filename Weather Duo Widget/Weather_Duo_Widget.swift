@@ -18,11 +18,14 @@ struct Provider: TimelineProvider {
             var entries: [SimpleEntry] = []
             let coordinate = LocationCoordinate(latitude: 40.7812, longitude: -73.9665)
             var policy = TimelineReloadPolicy.atEnd
-            if let model = await weatherViewModel.loadWeatherAtLocation(coordinate: coordinate) {
+            await weatherViewModel.loadWeatherAtLocation(coordinate: coordinate)
+
+            if let model = weatherViewModel.model {
                 entries.append(SimpleEntry(date: Date(), model: model))
                 let nextUpdateDate = model.lastUpdateDate.addingTimeInterval(30 * 60)
                 policy = .after(nextUpdateDate)
             }
+
             let timeline = Timeline(entries: entries , policy: policy)
             completion(timeline)
         }
