@@ -1,6 +1,5 @@
 import Foundation
 
-
 class WeatherViewModel: ObservableObject {
     let stubbed: Bool
     @Published private(set) var model: WeatherModel?

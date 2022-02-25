@@ -25,8 +25,7 @@ struct Weather_DuoApp: App {
             switch newScenePhase {
             case .active:
                 Task {
-                    let coordinate = LocationCoordinate(latitude: 40.7812, longitude: -73.9665)
-                    await viewModel.loadWeatherAtLocation(coordinate: coordinate)
+                    await viewModel.loadWeatherAtLocation(coordinate: ManhattanCoordinate)
                 }
             case .inactive: break
             case .background: break

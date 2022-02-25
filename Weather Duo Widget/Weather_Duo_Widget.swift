@@ -16,9 +16,8 @@ struct Provider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         Task {
             var entries: [SimpleEntry] = []
-            let coordinate = LocationCoordinate(latitude: 40.7812, longitude: -73.9665)
             var policy = TimelineReloadPolicy.atEnd
-            await weatherViewModel.loadWeatherAtLocation(coordinate: coordinate)
+            await weatherViewModel.loadWeatherAtLocation(coordinate: ManhattanCoordinate)
 
             if let model = weatherViewModel.model {
                 entries.append(SimpleEntry(date: Date(), model: model))

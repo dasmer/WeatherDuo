@@ -16,6 +16,7 @@ struct ContentView: View {
             if let model = weatherViewModel.model {
                 VStack {
                     Text(model.city)
+                    Spacer()
                     HStack {
                         Spacer().overlay (
                             VStack {
@@ -31,14 +32,14 @@ struct ContentView: View {
                             }
                         )
                     }
+                    Spacer()
                     Text(model.title)
-                }
+                }.padding()
             } else {
                 ProgressView()
             }
         }.task {
-            let coordinate = LocationCoordinate(latitude: 40.7812, longitude: -73.9665)
-            await weatherViewModel.loadWeatherAtLocation(coordinate: coordinate)
+            await weatherViewModel.loadWeatherAtLocation(coordinate: ManhattanCoordinate)
         }
     }
 }
